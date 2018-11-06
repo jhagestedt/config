@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    test-while-idle: true
+    test-on-borrow: true
+    test-on-connect: true
+    validation-query: SELECT 1
