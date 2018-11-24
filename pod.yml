@@ -4,6 +4,9 @@ metadata:
   name: config
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: config
   template:
     metadata:
       labels:
@@ -12,3 +15,5 @@ spec:
       containers:
       - name: config
         image: tsivb/config:#{Release.Artifacts.Image.BuildId}#
+        ports:
+        - containerPort: 8080
