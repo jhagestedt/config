@@ -1,0 +1,5 @@
+spring:
+  activemq:
+    brokerUrl: tcp://broker:61616
+  datasource:
+    driverClassName: org.postgresql.Driver
