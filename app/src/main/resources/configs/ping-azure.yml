@@ -2,7 +2,4 @@ spring:
   activemq:
     brokerUrl: tcp://broker:61616
   datasource:
-    driverClassName: org.h2.Driver
-    url: jdbc:h2:mem:ping;MODE=PostgreSQL
-    username: sa
-    password:
+    driverClassName: org.postgresql.Driver
