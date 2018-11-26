@@ -6,3 +6,6 @@ spring:
     url: jdbc:h2:mem:ping;MODE=PostgreSQL
     username: sa
     password:
+azure:
+  servicebus:
+    connection: none
