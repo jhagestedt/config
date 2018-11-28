@@ -36,8 +36,8 @@
       </snapshots>
     </repository>
     <repository>
-      <id>dev-azure-com-tsivbdevops-config</id>
-      <url>https://pkgs.dev.azure.com/tsivbdevops/_packaging/config/maven/v1</url>
+      <id>dev-azure-com-tsivbdevops-artifacts</id>
+      <url>https://pkgs.dev.azure.com/tsivbdevops/_packaging/artifacts/maven/v1</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -49,8 +49,8 @@
 
   <distributionManagement>
     <repository>
-      <id>dev-azure-com-tsivbdevops-config</id>
-      <url>https://pkgs.dev.azure.com/tsivbdevops/_packaging/config/maven/v1</url>
+      <id>dev-azure-com-tsivbdevops-artifacts</id>
+      <url>https://pkgs.dev.azure.com/tsivbdevops/_packaging/artifacts/maven/v1</url>
     </repository>
   </distributionManagement>
 
