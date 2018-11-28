@@ -16,6 +16,26 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
+  <repositories>
+    <repository>
+      <id>dev-azure-com-tsivbdevops-artifacts</id>
+      <url>https://pkgs.dev.azure.com/tsivbdevops/_packaging/artifacts/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <distributionManagement>
+    <repository>
+      <id>dev-azure-com-tsivbdevops-artifacts</id>
+      <url>https://pkgs.dev.azure.com/tsivbdevops/_packaging/artifacts/maven/v1</url>
+    </repository>
+  </distributionManagement>
+
   <modules>
     <module>api</module>
     <module>app</module>
