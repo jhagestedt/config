@@ -10,7 +10,7 @@
         <httpHeaders>
           <property>
             <name>Authorization</name>
-            <value>${token}</value>
+            <value>${artifacts.token}</value>
           </property>
         </httpHeaders>
       </configuration>
